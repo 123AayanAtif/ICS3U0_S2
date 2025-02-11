@@ -1,9 +1,9 @@
 # Predict: I predict that the code will likely display "Please input a whole number: and wait for the user to input something into the console"
-It will then print "When (the number entered by the user)  is divided by 6 the result is: (result of the number divided by 6)"
+# It will then print "When (the number entered by the user)  is divided by 6 the result is: (result of the number divided by 6)"
 
 # For example, if I put put in the number 18, it will output:
-Please input a whole number:  18
-When 18  is divided by 6 the result is: 3.0
+# Please input a whole number:  18
+# When 18  is divided by 6 the result is: 3.0
 
 # Run: When I ran the code, I found my prediction to be correct.
 
