@@ -1,7 +1,7 @@
 # Task A: My prediction is that it will output:
-Welcome to Sanjay's Koala Party!
-It's possible Sanjay can distribute  12
-cookies for each bowl.
+# Welcome to Sanjay's Koala Party!
+# It's possible Sanjay can distribute  12
+# cookies for each bowl.
 
 # When running the program, I found that my prediction was correct.
 
