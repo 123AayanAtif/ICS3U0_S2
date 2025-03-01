@@ -2,6 +2,16 @@
 #  Revison date : 28 Feburary 2025
 #  Program : Even or Odd
 #  Description : A program that checks if two numbers multiplied together are even or odd
+#  VARIABLE DICTIONARY:
+#  a (int) = user-inputted number, used for calculations in multiple parts of the program  
+#  b (int) = second user-inputted number, used for multiplication in even/odd detection  
+#  d (float) = calculated inner diagonal of a cube  
+#  quarters (int) = number of quarters in the change  
+#  dimes (int) = number of dimes in the change  
+#  nickles (int) = number of nickels in the change  
+#  pennies (int) = number of pennies in the change  
+#  change (int) = remaining amount of change in cents during calculation  
+#  total (int) = original amount of change input by the user  
 
 # Part 1: 
 
