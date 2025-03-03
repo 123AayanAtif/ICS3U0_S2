@@ -68,73 +68,81 @@ print("The length of the inner diagonal of a cube with the side length %.f will 
 #  Program : Making change in coins
 #  Description : A program that checks if two numbers multiplied together are even or odd
 
+# Initialize coin counters
 quarters = 0
 dimes = 0
 nickles = 0
 pennies = 0
 
+# Get user input for change in cents
 change = int(input("Please enter the amount of change in cents: "))
 total = change
 
-if change >= 100:
-    change = change % 100
-
+# Calculate quarters
 if change >= 25:
     quarters = int(change / 25)
     change = change % 25
 
+# Calculate dimes
 if change >= 10:
     dimes = int(change / 10)
     change = change % 10
 
+# Calculate nickels
 if change >= 5:
     nickles = int(change / 5)
     change = change % 5
 
+# Calculate pennies
 if change >= 1:
     pennies = int(change / 1)
-    
+
+# Handle special case for 1 cent
 if change == 1:
-  print("1 cent can be 1 penny.")
-  
+    print("1 cent can be 1 penny.")
+
+# Print total cents and start building the output
 else:
-  print(total, "cents can be ", end="")
+    print(total, "cents can be ", end="")
 
-
+# Add quarters to the output
 if quarters > 0:
     if quarters > 1:
         print(quarters, "quarters", end="")
     else:
         print("1 quarter", end="")
-    if dimes >= 1 or nickles >=1 or pennies >= 1:
-      print(", ", end="")
+    if dimes >= 1 or nickles >= 1 or pennies >= 1:
+        print(", ", end="")
     if (dimes >= 1 and nickles == 0 and pennies == 0) or (dimes == 0 and nickles >= 1 and pennies == 0) or (dimes == 0 and nickles == 0 and pennies >= 1):
-      print("and ", end="")
+        print("and ", end="")
     if dimes == 0 and nickles == 0 and pennies == 0:
-      print(".")
+        print(".")
 
+# Add dimes to the output
 if dimes > 0:
     if dimes > 1:
         print(dimes, "dimes", end="")
     else:
         print("1 dime", end="")
     if nickles >= 1 or pennies >= 1:
-      print(", ", end="")
+        print(", ", end="")
     if (nickles >= 1 and pennies == 0) or (nickles >= 0 and pennies == 1):
-      print("and ", end="")
+        print("and ", end="")
     if nickles == 0 and pennies == 0:
-      print(".")
+        print(".")
 
+# Add nickels to the output
 if nickles > 0:
     if nickles > 1:
         print(nickles, "nickles", end="")
     else:
         print("1 nickle", end="")
     if pennies >= 1:
-      print(" and ", end="")
+        print(" and ", end="")
     if pennies == 0:
-      print(".")
+        print(".")
 
+# Add pennies to the output
 if pennies > 0:
     if pennies > 1:
         print(pennies, "pennies.")
