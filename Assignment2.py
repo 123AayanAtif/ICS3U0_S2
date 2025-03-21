@@ -1,5 +1,13 @@
-
-
+#  Author : Aayan Atif
+#  Revison date : 21 March 2025
+#  Program : Guess the number
+#  Description : A program that is a game that makes the user guess the number!
+#  Course Code: ICS3U0
+#  VARIABLE DICTIONARY:
+#  target_number (int) = Stores the randomly generated number between 1 and 100.
+#  guess_count (int) = Tracks the number of guesses the user has made.
+#  max_attempts (int) = The maximum number of guesses allowed (6).
+#  user_guess (int) = Stores the number input by the user on each guess.
 
 import random
 
