@@ -7,7 +7,7 @@
    Description : A program that checks if each word in a list to see if it is a palindrome or not
 
 VARIABLE DICTIONARY:
-    words_list (list) = List of words to check if they are palindromes or not
+    words (list) = List of words to check if they are palindromes or not
     word (str) = Current word being checked in the outer loop
     is_palindrome (bool) = Boolean flag to track if the current word is a palindrome
     length (int) = Length of the current word
@@ -17,7 +17,7 @@ VARIABLE DICTIONARY:
 """
 
 # List of up to 10 words
-words_list = ["racecar", "noon", "desk", "civic", "store", 
+words = ["racecar", "noon", "desk", "civic", "store", 
          "level", "rotor", "school", "kayak", "madam"]
 
 print("Palindrome program!")
