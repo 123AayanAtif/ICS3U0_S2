@@ -1,5 +1,16 @@
 """
 
+Author : Aayan Atif
+   Student Number : 760754
+   Revision Date : 15 May 2025
+   Course Code : ICS3U
+   Program : Wordle Searcher
+   Description : This program lets the user search a Wordle solution file 
+   either by entering a word or by entering a specific date.
+
+VARIABLE DICTIONARY:
+
+
 
 """
 
